@@ -1,0 +1,11 @@
+import math
+num=float(input("Enter a number: "))
+sqrt_value=math.sqrt(num)
+if num>0:
+  log_value=math.log(num)
+else:
+   log_value="Undefined(log of non-positive number)"
+sine_value=math.sin(num)
+print("Square root of num is:",sqrt_value)
+print("logarithm of num is:",log_value)
+print("sine of num in radians is:",sine_value)
